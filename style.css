@@ -1,0 +1,50 @@
+body{
+  padding: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.span{
+  column-span: all;
+}
+
+.content{
+  padding: 20px;
+  background-color: #ebebeb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+p{
+  text-align: justify;
+  column-width: 330px;
+  column-fill: balance;
+  column-gap: 15px;
+  column-rule: 2px solid black;
+  column-span: all;
+}
+
+.footer{
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+}
